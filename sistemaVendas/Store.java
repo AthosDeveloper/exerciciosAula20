@@ -26,5 +26,10 @@ cd.setName("Renato Russo");
 cd.setPrice(13.563);
 cd.setTrackNumber(15);
         System.out.println(cd.showDetails());
+        Dvds dvd = new Dvds();
+dvd.setName("Duro de matar");
+dvd.setPrice(56.343);
+dvd.setDvdLenght(1.30);
+        System.out.println(dvd.showDetails());
     }
 }
